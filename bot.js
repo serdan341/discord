@@ -34,4 +34,4 @@ client.on('message', message => {
 
 });
 
-client.login(ayarlar.token);
+client.login(process.evn.BOT_TOKEN);
